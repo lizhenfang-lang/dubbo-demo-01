@@ -14,10 +14,10 @@
 <dubbo:protocol name="dubbo" port="20880" />
 
 <!-- 和本地bean一样实现服务 -->
-<bean id="myStudentService" class="com.lzf.service.Impl.StudentServiceImpl" />
+<bean id="myStudentService" class="com.lzf.service.Impl.MathServiceImpl" />
  
 <!-- 声明需要暴露的服务接口 -->
-<dubbo:service interface="com.lzf.service.StudentService" ref="myStudentService" />
+<dubbo:service interface="com.lzf.service.MathService" ref="myStudentService" />
  
 
 </beans>
