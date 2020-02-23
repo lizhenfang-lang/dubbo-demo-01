@@ -3,7 +3,7 @@ package com.lzf.entity;
 import java.io.Serializable;
 
 public class Student implements Serializable{
-
+//先添加实体类
 	/**
 	 * 
 	 */
