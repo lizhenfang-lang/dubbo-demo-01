@@ -3,7 +3,7 @@ package com.lzf.service;
 import com.lzf.entity.Student;
 
 public interface StudentService {
-	//接口
+
 	/**
 	 * 根据id 获取一个学生
 	 * @param id
